@@ -1,0 +1,13 @@
+[package]
+name = "crypto_coaster"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+sdl2 = "0.35.1"
+gl = "0.14.0"
+specs = "0.16.1"
+specs-derive = "0.4.1"
+utils = {path = "./utils"}
